@@ -1,9 +1,10 @@
 import React from 'react';
+import Produts from './components/Products';
 
 const App = () => {
   return (
     <div>
-      Welcome React!
+      <Produts />
     </div>
   )
 }
