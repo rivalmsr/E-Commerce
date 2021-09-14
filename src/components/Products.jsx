@@ -1,11 +1,10 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-
 import Product from './Product/Product'
 
 const products = [
-  {id: 1, name: 'Shoes', description: 'Running shoes.', image: 'https://media.dinomarket.com/docs/imgTD/2020-11/pic_macbook_m1_Grey1_121120221149_ll.jpg.jpg'},
-  {id: 2, name: 'Macbook', description: 'Apple macbook.', image: 'https://media.dinomarket.com/docs/imgTD/2020-11/pic_macbook_m1_Grey1_121120221149_ll.jpg.jpg'}
+  {id: 1, name: 'Shoes', description: 'Running shoes.', price: '$10', image: 'https://www.famousfootwear.com/blob/product-images/20000/95/36/4/95364_pair_large.jpg'},
+  {id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$99', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0hgchFMlEzt3qxKU08nSUpr2sGalEsN9OWm-3dxr4-Q9kNj1nfyMU71Tfs3Qeu2WyR0&usqp=CAU'}
 ];
 
 const Products = () => {
