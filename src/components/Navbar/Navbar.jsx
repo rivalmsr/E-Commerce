@@ -1,9 +1,13 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography  } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Badge, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
-import logo from '../assets/commerce.png';
+
+import logo from '../../assets/commerce.png';
+import useStyles from './styles';
 
 export const Navbar = () => {
+  const classes = useStyles();
+      
   return (
     <>
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
@@ -25,3 +29,5 @@ export const Navbar = () => {
     </>
   )
 }
+
+export default Navbar;
