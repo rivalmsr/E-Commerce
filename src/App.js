@@ -15,13 +15,10 @@ const App = () => {
     fetchProducts();
   }, []);
 
-  console.log('%c -> here!', 'color:orange;');
-  console.log(products);
-
   return (
     <div>
       <Navbar />
-      <Products />
+      <Products products={products} />
     </div>
   )
 }
