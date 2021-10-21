@@ -6,9 +6,9 @@ export default makeStyles(() => ({
   },
   media: {
     height: '250px',
-    paddingTop: '56,25%'
+    paddingTop: '56,25%',
   },
-  cardAction: {
+  cardActions: {
     display: 'flex',
     justifyContent: 'flex-end'
   },
