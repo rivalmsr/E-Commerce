@@ -1,12 +1,9 @@
 import React from 'react'
 import { Typography, Button, Card, CardActions, CardContent, CardMedia  } from '@material-ui/core';
-
 import useStyles from './styles';
 
 const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
   const classes = useStyles();
-  console.log('%c -> here!', 'color:orange;')
-  console.log(item);
 
   return (
     <Card>
